@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-baseURL:"https://www.heroku.com/contacts/",
+baseURL:"https://json-server-heroku-by-me.herokuapp.com/contacts",
 });
