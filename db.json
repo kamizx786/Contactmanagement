@@ -1,0 +1,49 @@
+{
+  "contacts": [
+    {
+      "id": "4a2f1073-cf0b-47c7-bca4-b4915c4933a5",
+      "name": "Kamran Ali",
+      "email": "kamranalizx491@gmail.com"
+    },
+    {
+      "name": "Ahmad",
+      "email": "Ahmad@gmail.com",
+      "id": "2a2f1073-cf05-47c7-bca4-b4915c4933a5"
+    },
+    {
+      "id": "28f0c2d9-dc5c-41f0-aa35-eae0e6b2585a",
+      "name": "Zaini",
+      "email": "Zaini@gmail.com"
+    },
+    {
+      "id": "98c7b15c-9e1a-4008-964f-2509cdeab0fa",
+      "name": "Faris",
+      "email": "Faris@gmail.com"
+    },
+    {
+      "id": "59d3457c-9406-4968-833f-cc37995cdb01",
+      "name": "Saad",
+      "email": "Saad@gmail.com"
+    },
+    {
+      "id": "abf81045-833c-4298-84de-3e00880be7ba",
+      "name": "Hafiz",
+      "email": "Hafiz@outlook.com"
+    },
+    {
+      "id": "3ea1d1b3-5396-46af-a17e-fc211f65df9b",
+      "name": "Nomi",
+      "email": "moni@gmail.com"
+    },
+    {
+      "id": "7fac2c45-932d-4c51-a108-c295ffa41ce4",
+      "name": "Ali Muhammad",
+      "email": "Ali@outlook.com"
+    },
+    {
+      "id": "fbbefb6e-671e-40b5-89e9-6c930e8c613e",
+      "name": "Sacredartjewelry",
+      "email": "alizx393@gmail.com"
+    }
+  ]
+}
