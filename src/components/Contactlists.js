@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import {AiTwotoneEdit} from "react-icons/ai"
 import Me from "../images/blank-profile-picture-973460__340.webp"
 import {Link,useNavigate} from "react-router-dom"
 import { useRef } from 'react'
@@ -65,7 +64,7 @@ return(
   </div>
   <div >
   <Link to={`/updatecontact/${curlElem.name}`} state={{id:curlElem.id,name: curlElem.name, email: curlElem.email}}>
-<i className=' alternate blue outline icon' style={{color:"red",marginLeft:"7px"}}><AiTwotoneEdit/></i>
+<i className=' alternate blue outline icon' style={{color:"red",marginLeft:"7px"}}>Edit</i>
 </Link>
 <button className='btn' style={{color:"red",marginLeft:"7px"}}
 onClick={()=>Deleteitem(curlElem.id)}
