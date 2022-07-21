@@ -3,6 +3,7 @@ import Me from "../images/blank-profile-picture-973460__340.webp"
 import {Link,useNavigate} from "react-router-dom"
 import { useRef } from 'react'
 import "./style.css";
+import swal from 'sweetalert';
 const Contactlists = (props) => {
 const Contact =props.Contact;
 const SearchElem=useRef("");
@@ -18,7 +19,28 @@ const GetSearchTerm=()=>{
   props.SearchKeyword(SearchElem.current.value);
 }
 const Deleteitem=(ID)=>{
-props.deletehandler(ID);
+  swal("Are You Sure You Want to Delete", {
+    buttons: {
+        catch: {
+        text: "Yes",
+        value: "Confirm",
+      },
+      defeat: {
+        text:"No",
+      },
+    },
+  })
+  .then((value) => {
+    switch (value) {
+      case "Confirm":
+        swal("Deleted", "Your Contact Has Been Deleted", "success");
+        props.deletehandler(ID);
+        break;
+   
+    }
+  });
+  
+
 }
 
   return (

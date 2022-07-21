@@ -2,6 +2,15 @@
     display: grid !important;
     grid-template-columns: 1fr 8fr 1fr!important;
 }
+.my-actions { margin: 0 2em !important; }
+.order-1 { order: 1 !important; }
+.order-2 { order: 2 !important; }
+.order-3 { order: 3 !important; }
+
+.right-gap {
+  margin-right: auto !important;
+}
+
 @media screen and (max-width:490px) {
     .items{
         grid-template-columns: 1fr!important;
