@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import {BsTrash} from "react-icons/bs"
 import {AiTwotoneEdit} from "react-icons/ai"
 import Me from "../images/blank-profile-picture-973460__340.webp"
 import {Link,useNavigate} from "react-router-dom"
@@ -70,7 +69,7 @@ return(
 </Link>
 <button className='btn' style={{color:"red",marginLeft:"7px"}}
 onClick={()=>Deleteitem(curlElem.id)}
-key={curlElem.id}><BsTrash/></button>
+key={curlElem.id}>Delete</button>
 </div>
 
         </div>
